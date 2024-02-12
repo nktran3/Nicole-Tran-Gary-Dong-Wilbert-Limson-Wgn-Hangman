@@ -6,10 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- changed from 400dp to wrap_content -->
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_hangman_container"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="-16dp"
         tools:layout_editor_absoluteY="0dp"
         app:layout_constraintStart_toStartOf="parent"
